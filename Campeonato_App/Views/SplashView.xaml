@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Campeonato_App.Views.SplashView">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image
+                Source="app_logo.png"
+                WidthRequest = "250"
+                Margin="0,130,0,0"
+                HeightRequest="250"
+                HorizontalOptions="CenterAndExpand"
+                />
+
+            <Label Text="Campeonato mundial FIFA 2020"
+                VerticalOptions="Center"
+                HorizontalOptions="Center" 
+                FontSize="25"
+                TextColor="#9e9e9e"
+                Margin="0,30,0,50"
+                   />
+            <StackLayout
+                Orientation="Vertical"
+                VerticalOptions="EndAndExpand"
+                Spacing="-38"
+                >
+                <StackLayout
+                Orientation="Horizontal"
+                    >
+                <Label Text="Realização"
+ 
+                HorizontalOptions="CenterAndExpand" 
+                FontSize="17"
+                TextColor="#9e9e9e"
+                Margin="0,0,49,0"
+                   />
+                
+                
+                <Label Text="Apoio"
+       
+                HorizontalOptions="CenterAndExpand" 
+                FontSize="17"
+                TextColor="#9e9e9e"
+                Margin="0,0,35,0"
+                   />
+            </StackLayout>
+
+            <StackLayout
+                Orientation="Horizontal">
+            <Image
+                Source="fifa_logo.png"
+                WidthRequest = "130"
+                HeightRequest="130"
+                HorizontalOptions="CenterAndExpand"
+                />
+
+            <Image
+                Source="WS_Towers.png"
+                WidthRequest = "150"
+                HeightRequest="150"
+                HorizontalOptions="CenterAndExpand"
+                
+                />
+            </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
